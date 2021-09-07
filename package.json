@@ -8,5 +8,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/chat21/chat21-cloud-functions"
+  },
+  "dependencies": {
+    "firebase-functions": "^3.15.5"
   }
 }

@@ -63,6 +63,9 @@ class ChatApi {
 
     sendGroupMessage(sender_id, sender_fullname, recipient_group_id, recipient_group_fullname, text, app_id, attributes, projectid, timestamp, type, metadata) {
 
+	// disabled for VIPFitter
+	return;
+
         var path = '/apps/'+app_id+'/users/'+sender_id+'/messages/'+recipient_group_id;
         // console.log("path", path);
 
